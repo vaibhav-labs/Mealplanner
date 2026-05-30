@@ -1,0 +1,98 @@
+Dish Name,Cuisine,Meal Type,Season,Main Ingredients,Is Jain,Cooking Time,Recipe URL,Notes
+Dal Tadka,North Indian,Lunch,All Year,"Toor Dal, Onion, Tomato, Cumin",No,30,,Basic everyday dal
+Rajma,North Indian,Lunch,Winter,"Rajma, Onion, Tomato, Ginger-Garlic",No,45,,Protein rich
+Chole,North Indian,Lunch,All Year,"Chickpeas, Onion, Tomato, Garam Masala",No,40,,Popular punjabi dish
+Palak Paneer,North Indian,Lunch,Winter,"Spinach, Paneer, Onion, Garlic",No,35,,Iron rich
+Matar Paneer,North Indian,Lunch,Winter,"Green Peas, Paneer, Tomato",No,30,,Popular dish
+Aloo Gobhi,North Indian,Lunch,Winter,"Potato, Cauliflower, Turmeric",Yes,25,,Classic combination
+Bhindi Do Pyaza,North Indian,Lunch,Summer,"Okra, Onion, Tomato, Coriander",No,30,,Dry vegetable
+Baingan Bharta,North Indian,Lunch,Monsoon,"Brinjal, Onion, Tomato, Garlic",No,35,,Smoky flavor
+Kadi Chawal,North Indian,Lunch,All Year,"Yogurt, Gram Flour, Rice",No,40,,Comfort food
+Aloo Paratha,North Indian,Breakfast,Winter,"Potato, Wheat Flour, Cumin",Yes,25,,Stuffed bread
+Kheer,North Indian,Dinner,All Year,"Rice, Milk, Sugar, Cardamom",Yes,35,,Sweet dessert
+Paneer Butter Masala,North Indian,Lunch,All Year,"Paneer, Butter, Tomato, Cashew, Cream",No,35,,Restaurant style favorite
+Malai Kofta,North Indian,Dinner,Winter,"Paneer, Potato, Cream, Cashew",No,50,,Rich creamy curry
+Shahi Paneer,North Indian,Dinner,All Year,"Paneer, Onion, Tomato, Cream, Nuts",No,40,,Mughlai style
+Dal Makhani,North Indian,Dinner,Winter,"Urad Dal, Rajma, Butter, Cream, Tomato",No,60,,Slow cooked overnight dal
+Jeera Rice,North Indian,Lunch,All Year,"Basmati Rice, Cumin, Ghee",Yes,20,,Goes with any curry
+Aloo Matar,North Indian,Lunch,Winter,"Potato, Green Peas, Tomato, Cumin",Yes,25,,Simple everyday sabzi
+Lauki Ki Sabzi,North Indian,Lunch,Summer,"Bottle Gourd, Tomato, Cumin",Yes,25,,Light and healthy
+Tinda Masala,North Indian,Lunch,Summer,"Apple Gourd, Onion, Tomato",No,25,,Summer vegetable
+Arhar Dal,North Indian,Lunch,All Year,"Toor Dal, Tomato, Turmeric, Cumin",Yes,30,,Simple everyday dal
+Chana Dal,North Indian,Lunch,All Year,"Chana Dal, Onion, Tomato, Turmeric",No,35,,Protein rich dal
+Moong Dal,North Indian,Lunch,All Year,"Moong Dal, Ghee, Cumin, Turmeric",Yes,25,,Light and easy to digest
+Mixed Veg Curry,North Indian,Lunch,All Year,"Potato, Carrot, Beans, Peas, Tomato",No,30,,Uses seasonal vegetables
+Kadhai Paneer,North Indian,Dinner,All Year,"Paneer, Bell Pepper, Tomato, Kadhai Masala",No,30,,Spicy and flavorful
+Dum Aloo,North Indian,Lunch,Winter,"Baby Potato, Yogurt, Tomato, Cashew",No,40,,Kashmiri style
+Methi Thepla,Gujarati,Breakfast,All Year,"Wheat Flour, Fenugreek Leaves, Yogurt",No,20,,Travel friendly flatbread
+Undhiyu,Gujarati,Lunch,Winter,"Surti Papdi, Brinjal, Potato, Banana, Coconut",Yes,60,,Traditional winter dish
+Dhokla,Gujarati,Breakfast,All Year,"Gram Flour, Yogurt, Mustard Seeds",Yes,30,,Steamed savory snack
+Khandvi,Gujarati,Breakfast,All Year,"Gram Flour, Yogurt, Coconut",Yes,30,,Rolled gram flour snack
+Dal Dhokli,Gujarati,Lunch,Monsoon,"Toor Dal, Wheat Flour, Jaggery, Tamarind",No,45,,Dal with wheat dumplings
+Sev Tameta,Gujarati,Lunch,All Year,"Tomato, Sev, Onion, Green Chili",No,20,,Quick tangy curry
+Gujarati Kadhi,Gujarati,Lunch,All Year,"Yogurt, Gram Flour, Sugar, Curry Leaves",No,30,,Sweet and tangy kadhi
+Handvo,Gujarati,Breakfast,All Year,"Rice, Chana Dal, Bottle Gourd, Sesame",No,45,,Savory rice cake
+Dal Baati Churma,Rajasthani,Lunch,All Year,"Wheat Flour, Ghee, Dal, Jaggery",Yes,60,,Traditional rajasthani
+Gatte Ki Sabzi,Rajasthani,Lunch,All Year,"Gram Flour, Yogurt, Ginger",Yes,40,,Unique rajasthani curry
+Ker Sangri,Rajasthani,Lunch,Summer,"Dried Berries, Beans, Red Chili",Yes,35,,Desert specialty
+Laal Maas,Rajasthani,Lunch,Winter,"Mathania Chili, Yogurt, Garlic",No,50,,Spicy curry
+Papad Ki Sabzi,Rajasthani,Lunch,All Year,"Papad, Yogurt, Cumin, Coriander",Yes,15,,Quick no-veggie curry
+Bajre Ki Roti,Rajasthani,Lunch,Winter,"Pearl Millet Flour, Ghee",Yes,20,,Winter staple with ghee
+Misal Pav,Marathi,Breakfast,All Year,"Mixed Sprouts, Onion, Tomato, Pav",No,45,,Spicy maharashtrian
+Poha,Marathi,Breakfast,All Year,"Flattened Rice, Onion, Mustard Seeds",Yes,15,,Light breakfast
+Sabudana Khichdi,Marathi,Breakfast,Monsoon,"Sago, Peanuts, Potato, Cumin",Yes,20,,Fasting food
+Vangi Bhaat,Marathi,Lunch,Monsoon,"Brinjal, Rice, Coconut, Tamarind",No,40,,One pot meal
+Puran Poli,Marathi,Dinner,All Year,"Chana Dal, Jaggery, Wheat Flour",Yes,50,,Sweet flatbread
+Pithla Bhakri,Marathi,Lunch,All Year,"Gram Flour, Onion, Garlic, Jowar Flour",No,25,,Simple rustic meal
+Bharli Vangi,Marathi,Lunch,Monsoon,"Brinjal, Peanut, Coconut, Sesame",No,35,,Stuffed eggplant
+Kothimbir Vadi,Marathi,Breakfast,All Year,"Coriander Leaves, Gram Flour, Sesame",No,30,,Crispy coriander fritters
+Thalipeeth,Marathi,Breakfast,All Year,"Multi-grain Flour, Onion, Coriander",No,20,,Spiced flatbread
+Masala Dosa,South Indian,Breakfast,All Year,"Rice Batter, Urad Dal, Potato, Mustard Seeds",No,30,,Crispy crepe with filling
+Idli Sambar,South Indian,Breakfast,All Year,"Rice, Urad Dal, Toor Dal, Mixed Vegetables",No,25,,Steamed rice cakes
+Upma,South Indian,Breakfast,All Year,"Semolina, Mustard Seeds, Curry Leaves, Vegetables",No,20,,Quick semolina dish
+Medu Vada,South Indian,Breakfast,All Year,"Urad Dal, Curry Leaves, Black Pepper",No,30,,Crispy fried lentil donuts
+Rasam,South Indian,Lunch,Monsoon,"Tomato, Tamarind, Pepper, Curry Leaves",Yes,20,,Tangy pepper soup
+Sambar,South Indian,Lunch,All Year,"Toor Dal, Tamarind, Mixed Vegetables, Sambar Powder",No,35,,Lentil vegetable stew
+Bisibelebath,South Indian,Lunch,All Year,"Rice, Toor Dal, Vegetables, Tamarind",No,45,,Karnataka one-pot meal
+Avial,South Indian,Lunch,All Year,"Mixed Vegetables, Coconut, Yogurt, Curry Leaves",No,30,,Kerala mixed veg curry
+Lemon Rice,South Indian,Lunch,All Year,"Rice, Lemon Juice, Peanuts, Mustard Seeds",Yes,20,,Quick tangy rice
+Curd Rice,South Indian,Lunch,Summer,"Rice, Yogurt, Mustard Seeds, Curry Leaves",No,15,,Cooling summer staple
+Coconut Chutney,South Indian,Breakfast,All Year,"Coconut, Green Chili, Mustard Seeds",Yes,10,,Essential dosa accompaniment
+Pongal,South Indian,Breakfast,Winter,"Rice, Moong Dal, Pepper, Ghee, Curry Leaves",Yes,30,,Comforting breakfast
+Pesarattu,South Indian,Breakfast,All Year,"Green Moong Dal, Rice, Ginger, Green Chili",No,25,,Andhra green gram crepe
+Paneer Tikka,North Indian,Dinner,All Year,"Paneer, Bell Pepper, Yogurt, Tikka Masala",No,30,,Grilled appetizer
+Gobi Manchurian,Indo-Chinese,Dinner,All Year,"Cauliflower, Soy Sauce, Ginger-Garlic, Cornflour",No,30,,Popular street food
+Veg Fried Rice,Indo-Chinese,Dinner,All Year,"Rice, Mixed Vegetables, Soy Sauce, Vinegar",No,20,,Quick one-pot meal
+Hakka Noodles,Indo-Chinese,Dinner,All Year,"Noodles, Bell Pepper, Cabbage, Soy Sauce",No,20,,Street-style noodles
+Manchow Soup,Indo-Chinese,Dinner,Winter,"Mixed Vegetables, Soy Sauce, Vinegar, Fried Noodles",No,25,,Spicy soup with crispy noodles
+Veg Manchurian,Indo-Chinese,Dinner,All Year,"Mixed Vegetables, Soy Sauce, Cornflour, Garlic",No,30,,Gravy or dry style
+Pav Bhaji,Street Food,Dinner,All Year,"Potato, Tomato, Peas, Butter, Pav",No,40,,Mumbai street food
+Ragda Pattice,Street Food,Dinner,All Year,"Potato Patty, White Peas, Chutney",No,40,,Chaat-style snack dinner
+Dabeli,Street Food,Breakfast,All Year,"Potato, Peanuts, Pomegranate, Pav",Yes,25,,Gujarati street food
+Vada Pav,Street Food,Breakfast,All Year,"Potato, Gram Flour, Pav, Garlic Chutney",No,25,,Mumbai burger
+Bhel Puri,Street Food,Dinner,All Year,"Puffed Rice, Onion, Tomato, Chutneys, Sev",Yes,15,,Light chaat
+Dahi Vada,Street Food,Dinner,All Year,"Urad Dal, Yogurt, Tamarind Chutney, Cumin",No,40,,Soft dumplings in yogurt
+Aloo Tikki,Street Food,Dinner,All Year,"Potato, Peas, Coriander, Chaat Masala",Yes,30,,Crispy potato patties
+Gajar Ka Halwa,North Indian,Dinner,Winter,"Carrot, Milk, Sugar, Ghee, Cardamom",Yes,45,,Winter dessert
+Gulab Jamun,North Indian,Dinner,All Year,"Khoya, Flour, Sugar Syrup, Cardamom",Yes,30,,Classic Indian sweet
+Ras Malai,North Indian,Dinner,All Year,"Paneer, Milk, Sugar, Saffron, Cardamom",Yes,40,,Creamy milk dessert
+Besan Ladoo,North Indian,Dinner,All Year,"Gram Flour, Ghee, Sugar, Cardamom",Yes,25,,Traditional sweet
+Jalebi,North Indian,Breakfast,Winter,"Flour, Sugar Syrup, Saffron",Yes,30,,Crispy spiral sweet
+Masala Chai,North Indian,Breakfast,All Year,"Tea, Milk, Ginger, Cardamom",Yes,10,,Morning essential
+Lassi,North Indian,Lunch,Summer,"Yogurt, Sugar, Cardamom",Yes,5,,Cooling yogurt drink
+Chaas,Gujarati,Lunch,Summer,"Yogurt, Cumin, Curry Leaves, Ginger",Yes,5,,Spiced buttermilk
+Aam Panna,North Indian,Lunch,Summer,"Raw Mango, Sugar, Cumin, Mint",Yes,15,,Summer cooler
+Baigan Ka Bharta,Rajasthani,Lunch,Monsoon,"Brinjal, Mustard Oil, Onion, Tomato",No,30,,Smoky mashed eggplant
+Pyaaz Kachori,Rajasthani,Breakfast,All Year,"Wheat Flour, Onion, Spices",No,40,,Crispy stuffed pastry
+Makki Ki Roti,North Indian,Lunch,Winter,"Corn Flour, Ghee",Yes,20,,Winter staple from Punjab
+Sarson Ka Saag,North Indian,Lunch,Winter,"Mustard Greens, Spinach, Ghee, Garlic",No,50,,Pairs with Makki Ki Roti
+Pindi Chole,North Indian,Lunch,All Year,"Chickpeas, Tea Bags, Pomegranate Powder, Ginger",No,45,,Dry spiced chickpeas
+Paneer Bhurji,North Indian,Breakfast,All Year,"Paneer, Onion, Tomato, Green Chili",No,15,,Scrambled paneer
+Besan Chilla,North Indian,Breakfast,All Year,"Gram Flour, Onion, Tomato, Green Chili",No,15,,Savory gram flour pancake
+Stuffed Capsicum,North Indian,Lunch,All Year,"Bell Pepper, Potato, Paneer, Spices",No,30,,Filled peppers
+Mutter Mushroom,North Indian,Lunch,Winter,"Mushroom, Green Peas, Onion, Tomato",No,25,,Hearty winter curry
+Vegetable Biryani,Hyderabadi,Lunch,All Year,"Basmati Rice, Mixed Vegetables, Yogurt, Saffron, Mint",No,60,,Layered dum style
+Hyderabadi Mirchi Ka Salan,Hyderabadi,Lunch,All Year,"Green Chili, Peanut, Sesame, Tamarind, Coconut",No,35,,Tangy nutty curry
+Vegetable Pulao,North Indian,Lunch,All Year,"Basmati Rice, Mixed Vegetables, Whole Spices",Yes,30,,Fragrant one-pot rice
+Khichdi,North Indian,Dinner,Monsoon,"Rice, Moong Dal, Ghee, Cumin, Turmeric",Yes,25,,Ultimate comfort food
+Roti,North Indian,Lunch,All Year,"Wheat Flour",Yes,5,,Basic everyday bread

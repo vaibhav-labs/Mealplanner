@@ -1,0 +1,97 @@
+Dish Name,Cuisine,Meal Type,Season,Main Ingredients,Is Jain,Cooking Time,Recipe URL,Notes,Complete Meal,Serves,Meal Weight,Protein Source,Fiber Source,Special Occasion
+Dal Tadka with Chapati & Rice,North Indian,Lunch,All Year,"Toor Dal, Wheat Flour, Rice, Onion, Tomato, Cumin",No,40,,Complete meal for 3 people,Dal Tadka + Chapati + Steamed Rice + Pickle,3,Medium,Toor Dal,Wheat Chapati,Weekday
+Rajma with Bhature & Onions,North Indian,Lunch,Winter,"Rajma, Flour, Yogurt, Onion, Tomato, Ginger-Garlic",No,60,,Winter comfort food for 3,Rajma + Hot Bhature + Sliced Onions + Green Chutney,3,Heavy,Rajma Beans,Rajma Beans,Weekend
+Chole with Roti & Pickle,North Indian,Lunch,Summer,"Chickpeas, Wheat Flour, Onion, Tomato, Garam Masala",No,50,,Light summer meal,Chole + Roti + Achar + Onion Salad,3,Medium,Chickpeas,Chickpeas,Weekday
+Palak Paneer with Naan & Rice,North Indian,Lunch,Winter,"Spinach, Paneer, Flour, Rice, Onion, Garlic",No,45,,Rich winter meal,Palak Paneer + Naan + Jeera Rice + Raita,3,Heavy,Paneer,Spinach,Weekend
+Dal Baati Churma Complete,Rajasthani,Lunch,All Year,"Wheat Flour, Ghee, Dal, Jaggery, Milk",Yes,70,,Traditional Rajasthani thali,Dal + Baati + Churma + Ghee + Pickle,3,Heavy,Dal,Wheat Baati,Weekend
+Gatte Ki Sabzi with Bajra Roti,Rajasthani,Lunch,Winter,"Gram Flour, Bajra Flour, Yogurt, Ginger",Yes,50,,Winter Rajasthani meal,Gatte + Bajra Roti + Buttermilk + Pickle,3,Medium,Gram Flour,Bajra Roti,Weekday
+Ker Sangri with Missi Roti,Rajasthani,Lunch,Summer,"Dried Berries, Beans, Gram Flour, Wheat Flour",Yes,45,,Summer desert meal,Ker Sangri + Missi Roti + Lassi + Onion,3,Medium,Beans,Sangri Beans,Weekend
+Misal Pav Complete,Marathi,Breakfast,All Year,"Mixed Sprouts, Pav, Onion, Tomato, Farsan",No,45,,Spicy breakfast for 3,Misal + Pav + Farsan + Onions + Lemon,3,Heavy,Mixed Sprouts,Mixed Sprouts,Weekend
+Poha with Tea & Namkeen,Marathi,Breakfast,All Year,"Flattened Rice, Tea Leaves, Onion, Mustard Seeds",Yes,25,,Light breakfast,Poha + Chai + Namkeen + Sev,3,Light,Poha,Onions,Weekday
+Sabudana Khichdi with Curd,Marathi,Breakfast,Monsoon,"Sago, Peanuts, Potato, Cumin, Curd",Yes,30,,Monsoon fasting meal,Sabudana Khichdi + Sweet Curd + Green Chutney,3,Light,Peanuts,Sabudana,Weekday
+Vangi Bhaat with Pickle & Papad,Marathi,Lunch,Monsoon,"Brinjal, Rice, Coconut, Tamarind, Papad",No,50,,One pot monsoon meal,Vangi Bhaat + Pickle + Roasted Papad + Buttermilk,3,Medium,Rice,Brinjal,Weekday
+Puran Poli with Milk & Ghee,Marathi,Dinner,All Year,"Chana Dal, Jaggery, Wheat Flour, Milk, Ghee",Yes,60,,Sweet dinner,Puran Poli + Warm Milk + Ghee + Cardamom,3,Heavy,Chana Dal,Chana Dal,Weekend
+Aloo Paratha with Curd & Pickle,North Indian,Breakfast,Winter,"Potato, Wheat Flour, Cumin, Curd",Yes,35,,Hearty winter breakfast,Aloo Paratha + Fresh Curd + Pickle + Butter,3,Heavy,Curd,Wheat Flour,Weekend
+Kheer with Puris & Sabzi,North Indian,Dinner,All Year,"Rice, Milk, Sugar, Wheat Flour, Vegetables",Yes,50,,Festival dinner,Mixed Vegetables + Puris + Rice Kheer + Papad,3,Heavy,Milk,Vegetables,Weekend
+Bhindi with Roti & Dal,North Indian,Lunch,Summer,"Okra, Wheat Flour, Toor Dal, Onion, Tomato",No,40,,Summer lunch,Bhindi + Roti + Simple Dal + Buttermilk,3,Light,Toor Dal,Bhindi,Weekday
+Aloo Gobhi with Paratha & Raita,North Indian,Lunch,Winter,"Potato, Cauliflower, Wheat Flour, Curd, Turmeric",Yes,35,,Winter comfort meal,Aloo Gobhi + Paratha + Cucumber Raita + Pickle,3,Medium,Curd,Cauliflower,Weekday
+Baingan Bharta with Roti & Onions,North Indian,Lunch,Monsoon,"Brinjal, Wheat Flour, Onion, Tomato, Garlic",No,45,,Monsoon special,Baingan Bharta + Roti + Raw Onions + Green Chili,3,Light,Wheat Roti,Brinjal,Weekday
+Kadi Chawal Complete,North Indian,Lunch,All Year,"Yogurt, Gram Flour, Rice, Tempering Spices",No,50,,Comfort food combo,Punjabi Kadi + Steamed Rice + Papad + Pickle,3,Light,Yogurt,Gram Flour,Weekday
+Matar Paneer with Naan & Rice,North Indian,Lunch,Winter,"Green Peas, Paneer, Flour, Rice, Tomato",No,40,,Rich winter lunch,Matar Paneer + Butter Naan + Rice + Salad,3,Heavy,Paneer,Green Peas,Weekend
+Mixed Dal with Khichdi & Ghee,North Indian,Dinner,Monsoon,"Mixed Lentils, Rice, Ghee, Turmeric, Ginger",Yes,45,,Monsoon comfort dinner,Mixed Dal Khichdi + Ghee + Papad + Pickle,3,Light,Mixed Lentils,Mixed Lentils,Weekday
+Rajma Chawal with Salad & Papad,North Indian,Dinner,Winter,"Rajma, Rice, Onion, Tomato, Cucumber",No,50,,Complete winter dinner,Rajma + Steamed Rice + Cucumber Salad + Roasted Papad + Pickle,3,Medium,Rajma,Rajma,Weekday
+Chole Bhature with Lassi,North Indian,Dinner,Winter,"Chickpeas, Flour, Yogurt, Sugar, Cardamom",No,65,,Rich weekend dinner,Chole + Bhature + Sweet Lassi + Onion Salad + Pickle,3,Heavy,Chickpeas,Chickpeas,Weekend
+Dal Makhani with Naan & Rice,North Indian,Dinner,Winter,"Black Dal, Butter, Flour, Rice, Cream",No,80,,Luxury weekend dinner,Dal Makhani + Butter Naan + Jeera Rice + Raita + Papad,3,Heavy,Black Dal,Black Dal,Weekend
+Sambar Rice with Coconut Chutney,South Indian,Lunch,All Year,"Toor Dal, Rice, Coconut, Vegetables, Tamarind",No,45,,South Indian complete meal,Sambar + Rice + Coconut Chutney + Vegetables + Papad,3,Medium,Toor Dal,Vegetables,Weekday
+Thali Complete Gujarati,Gujarati,Lunch,All Year,"Dal, Rice, Roti, Vegetables, Yogurt",Yes,60,,Full Gujarati thali,Dal + Rice + Roti + Sabzi + Kadhi + Pickle + Papad,3,Heavy,Dal,Vegetables,Weekend
+Simple Roti Dal with Achar,North Indian,Dinner,All Year,"Wheat Flour, Toor Dal, Mixed Pickle, Onion",Yes,35,,Simple everyday dinner,Roti + Dal + Achar + Raw Onions + Green Chili,3,Light,Toor Dal,Wheat Roti,Weekday
+Upma with Coconut Chutney,South Indian,Breakfast,All Year,"Semolina, Coconut, Curry Leaves, Vegetables",Yes,25,,South Indian breakfast,Upma + Coconut Chutney + Sambar + Coffee,3,Medium,Semolina,Vegetables,Weekday
+Puri Sabzi with Halwa,North Indian,Dinner,All Year,"Wheat Flour, Vegetables, Semolina, Sugar, Milk",Yes,55,,Traditional dinner,Puri + Mixed Vegetables + Suji Halwa + Pickle,3,Heavy,Vegetables,Wheat Puri,Weekend
+Paratha Thali Complete,North Indian,Breakfast,Winter,"Wheat Flour, Potato, Curd, Butter, Vegetables",Yes,45,,Heavy breakfast thali,Aloo Paratha + Curd + Pickle + Butter + Chai,3,Heavy,Curd,Wheat Flour,Weekend
+Idli Sambar with Chutney,South Indian,Breakfast,All Year,"Rice, Urad Dal, Toor Dal, Coconut, Vegetables",Yes,40,,South Indian breakfast,Idli + Sambar + Coconut Chutney + Coffee,3,Light,Urad Dal,Vegetables,Weekday
+Masala Dosa with Sambar,South Indian,Breakfast,All Year,"Rice, Urad Dal, Potato, Coconut, Curry Leaves",Yes,50,,South Indian special breakfast,Masala Dosa + Sambar + Chutneys + Filter Coffee,3,Medium,Urad Dal,Rice,Weekend
+Makki Roti with Sarson Saag,North Indian,Dinner,Winter,"Corn Flour, Mustard Greens, Jaggery, Butter",Yes,50,,Punjabi winter dinner,Makki Roti + Sarson Saag + Jaggery + White Butter + Lassi,3,Medium,Mustard Greens,Corn Flour,Weekend
+Khichdi Kadhi with Pickle,Gujarati,Dinner,Monsoon,"Rice, Moong Dal, Yogurt, Ginger, Pickle",Yes,40,,Comfort monsoon dinner,Khichdi + Gujarati Kadhi + Pickle + Papad + Ghee,3,Light,Moong Dal,Moong Dal,Weekday
+Stuffed Paratha with Lassi,North Indian,Breakfast,Winter,"Wheat Flour, Paneer, Yogurt, Sugar, Mint",Yes,40,,Rich winter breakfast,Paneer Paratha + Sweet Lassi + Pickle + Butter,3,Heavy,Paneer,Wheat Flour,Weekend
+Paneer Butter Masala,North Indian,Lunch,All Year,"Paneer, Butter, Tomato, Cashew, Cream",No,35,,Restaurant style favorite,Paneer Butter Masala + Butter Naan + Jeera Rice + Raita,3,Heavy,Paneer,Tomato,Weekend
+Malai Kofta,North Indian,Dinner,Winter,"Paneer, Potato, Cream, Cashew",No,50,,Rich creamy curry,Malai Kofta + Butter Naan + Jeera Rice + Salad,3,Heavy,Paneer,Potato,Weekend
+Shahi Paneer,North Indian,Dinner,All Year,"Paneer, Onion, Tomato, Cream, Nuts",No,40,,Mughlai style,Shahi Paneer + Butter Naan + Jeera Rice + Raita,3,Heavy,Paneer,Onion,Weekend
+Aloo Matar,North Indian,Lunch,Winter,"Potato, Green Peas, Tomato, Cumin",Yes,25,,Simple everyday sabzi,Aloo Matar + Roti + Dal + Rice,3,Medium,Green Peas,Potato,Weekday
+Lauki Ki Sabzi,North Indian,Lunch,Summer,"Bottle Gourd, Tomato, Cumin",Yes,25,,Light and healthy,Lauki Ki Sabzi + Roti + Dal + Rice,3,Light,Dal,Bottle Gourd,Weekday
+Tinda Masala,North Indian,Lunch,Summer,"Apple Gourd, Onion, Tomato",No,25,,Summer vegetable,Tinda Masala + Roti + Dal + Rice,3,Light,Dal,Apple Gourd,Weekday
+Arhar Dal,North Indian,Lunch,All Year,"Toor Dal, Tomato, Turmeric, Cumin",Yes,30,,Simple everyday dal,Arhar Dal + Rice + Roti + Pickle,3,Medium,Toor Dal,Wheat Roti,Weekday
+Chana Dal,North Indian,Lunch,All Year,"Chana Dal, Onion, Tomato, Turmeric",No,35,,Protein rich dal,Chana Dal + Rice + Roti + Pickle,3,Medium,Chana Dal,Wheat Roti,Weekday
+Moong Dal,North Indian,Lunch,All Year,"Moong Dal, Ghee, Cumin, Turmeric",Yes,25,,Light and easy to digest,Moong Dal + Rice + Roti + Pickle,3,Light,Moong Dal,Wheat Roti,Weekday
+Mixed Veg Curry,North Indian,Lunch,All Year,"Potato, Carrot, Beans, Peas, Tomato",No,30,,Uses seasonal vegetables,Mixed Veg Curry + Roti + Dal + Rice,3,Medium,Dal,Mixed Vegetables,Weekday
+Kadhai Paneer,North Indian,Dinner,All Year,"Paneer, Bell Pepper, Tomato, Kadhai Masala",No,30,,Spicy and flavorful,Kadhai Paneer + Butter Naan + Jeera Rice + Salad,3,Medium,Paneer,Bell Pepper,Weekday
+Dum Aloo,North Indian,Lunch,Winter,"Baby Potato, Yogurt, Tomato, Cashew",No,40,,Kashmiri style,Dum Aloo + Roti + Dal + Rice,3,Heavy,Yogurt,Potato,Weekend
+Methi Thepla,Gujarati,Breakfast,All Year,"Wheat Flour, Fenugreek Leaves, Yogurt",No,20,,Travel friendly flatbread,Methi Thepla + Pickle + Chai + Curd,3,Light,Yogurt,Fenugreek,Weekday
+Undhiyu,Gujarati,Lunch,Winter,"Surti Papdi, Brinjal, Potato, Banana, Coconut",Yes,60,,Traditional winter dish,Undhiyu + Puri + Shrikhand + Papad,3,Heavy,Surti Papdi,Mixed Vegetables,Weekend
+Dhokla,Gujarati,Breakfast,All Year,"Gram Flour, Yogurt, Mustard Seeds",Yes,30,,Steamed savory snack,Dhokla + Green Chutney + Chai,3,Light,Gram Flour,Gram Flour,Weekday
+Khandvi,Gujarati,Breakfast,All Year,"Gram Flour, Yogurt, Coconut",Yes,30,,Rolled gram flour snack,Khandvi + Green Chutney + Chai,3,Light,Gram Flour,Coconut,Weekday
+Dal Dhokli,Gujarati,Lunch,Monsoon,"Toor Dal, Wheat Flour, Jaggery, Tamarind",No,45,,Dal with wheat dumplings,Dal Dhokli + Rice + Papad + Pickle,3,Heavy,Toor Dal,Wheat Flour,Weekend
+Sev Tameta,Gujarati,Lunch,All Year,"Tomato, Sev, Onion, Green Chili",No,20,,Quick tangy curry,Sev Tameta + Roti + Dal + Rice,3,Light,Dal,Tomato,Weekday
+Gujarati Kadhi,Gujarati,Lunch,All Year,"Yogurt, Gram Flour, Sugar, Curry Leaves",No,30,,Sweet and tangy kadhi,Gujarati Kadhi + Rice + Roti + Pickle,3,Medium,Yogurt,Gram Flour,Weekday
+Handvo,Gujarati,Breakfast,All Year,"Rice, Chana Dal, Bottle Gourd, Sesame",No,45,,Savory rice cake,Handvo + Green Chutney + Chai,3,Medium,Chana Dal,Bottle Gourd,Weekend
+Papad Ki Sabzi,Rajasthani,Lunch,All Year,"Papad, Yogurt, Cumin, Coriander",Yes,15,,Quick no-veggie curry,Papad Ki Sabzi + Roti + Dal + Rice,3,Light,Yogurt,Papad,Weekday
+Bajre Ki Roti,Rajasthani,Lunch,Winter,"Pearl Millet Flour, Ghee",Yes,20,,Winter staple with ghee,Bajre Ki Roti + Dal + Ghee + Pickle + Buttermilk,3,Medium,Dal,Bajra,Weekend
+Pithla Bhakri,Marathi,Lunch,All Year,"Gram Flour, Onion, Garlic, Jowar Flour",No,25,,Simple rustic meal,Pithla + Bhakri + Thecha + Raw Onion,3,Medium,Gram Flour,Jowar,Weekday
+Bharli Vangi,Marathi,Lunch,Monsoon,"Brinjal, Peanut, Coconut, Sesame",No,35,,Stuffed eggplant,Bharli Vangi + Bhakri + Dal + Rice,3,Medium,Peanuts,Brinjal,Weekday
+Kothimbir Vadi,Marathi,Breakfast,All Year,"Coriander Leaves, Gram Flour, Sesame",No,30,,Crispy coriander fritters,Kothimbir Vadi + Green Chutney + Chai,3,Light,Gram Flour,Coriander,Weekday
+Thalipeeth,Marathi,Breakfast,All Year,"Multi-grain Flour, Onion, Coriander",No,20,,Spiced flatbread,Thalipeeth + Curd + Pickle + Chai,3,Medium,Multi-grain Flour,Multi-grain,Weekday
+Medu Vada,South Indian,Breakfast,All Year,"Urad Dal, Curry Leaves, Black Pepper",No,30,,Crispy fried lentil donuts,Medu Vada + Sambar + Coconut Chutney + Coffee,3,Medium,Urad Dal,Urad Dal,Weekday
+Rasam,South Indian,Lunch,Monsoon,"Tomato, Tamarind, Pepper, Curry Leaves",Yes,20,,Tangy pepper soup,Rasam + Rice + Papad + Pickle,3,Light,Lentils,Tomato,Weekday
+Bisibelebath,South Indian,Lunch,All Year,"Rice, Toor Dal, Vegetables, Tamarind",No,45,,Karnataka one-pot meal,Bisibelebath + Boondi Raita + Papad + Pickle,3,Medium,Toor Dal,Mixed Vegetables,Weekend
+Avial,South Indian,Lunch,All Year,"Mixed Vegetables, Coconut, Yogurt, Curry Leaves",No,30,,Kerala mixed veg curry,Avial + Rice + Sambar + Papad,3,Medium,Yogurt,Mixed Vegetables,Weekday
+Lemon Rice,South Indian,Lunch,All Year,"Rice, Lemon Juice, Peanuts, Mustard Seeds",Yes,20,,Quick tangy rice,Lemon Rice + Raita + Papad + Pickle,3,Light,Peanuts,Rice,Weekday
+Curd Rice,South Indian,Lunch,Summer,"Rice, Yogurt, Mustard Seeds, Curry Leaves",No,15,,Cooling summer staple,Curd Rice + Pickle + Papad + Buttermilk,3,Light,Yogurt,Rice,Weekday
+Pongal,South Indian,Breakfast,Winter,"Rice, Moong Dal, Pepper, Ghee, Curry Leaves",Yes,30,,Comforting breakfast,Pongal + Sambar + Coconut Chutney + Coffee,3,Medium,Moong Dal,Rice,Weekend
+Pesarattu,South Indian,Breakfast,All Year,"Green Moong Dal, Rice, Ginger, Green Chili",No,25,,Andhra green gram crepe,Pesarattu + Ginger Chutney + Upma + Coffee,3,Medium,Green Moong Dal,Green Moong Dal,Weekday
+Paneer Tikka,North Indian,Dinner,All Year,"Paneer, Bell Pepper, Yogurt, Tikka Masala",No,30,,Grilled appetizer,Paneer Tikka + Mint Chutney + Naan + Salad,3,Medium,Paneer,Bell Pepper,Weekday
+Gobi Manchurian,Indo-Chinese,Dinner,All Year,"Cauliflower, Soy Sauce, Ginger-Garlic, Cornflour",No,30,,Popular street food,Gobi Manchurian + Fried Rice + Manchow Soup,3,Medium,Cauliflower,Cauliflower,Weekday
+Veg Fried Rice,Indo-Chinese,Dinner,All Year,"Rice, Mixed Vegetables, Soy Sauce, Vinegar",No,20,,Quick one-pot meal,Veg Fried Rice + Manchurian + Hot & Sour Soup,3,Medium,Mixed Vegetables,Mixed Vegetables,Weekday
+Hakka Noodles,Indo-Chinese,Dinner,All Year,"Noodles, Bell Pepper, Cabbage, Soy Sauce",No,20,,Street-style noodles,Hakka Noodles + Gobi Manchurian + Sweet Corn Soup,3,Medium,Noodles,Cabbage,Weekday
+Manchow Soup,Indo-Chinese,Dinner,Winter,"Mixed Vegetables, Soy Sauce, Vinegar, Fried Noodles",No,25,,Spicy soup with crispy noodles,Manchow Soup + Veg Fried Rice + Spring Rolls,3,Light,Mixed Vegetables,Mixed Vegetables,Weekday
+Veg Manchurian,Indo-Chinese,Dinner,All Year,"Mixed Vegetables, Soy Sauce, Cornflour, Garlic",No,30,,Gravy or dry style,Veg Manchurian + Fried Rice + Hot & Sour Soup,3,Medium,Mixed Vegetables,Mixed Vegetables,Weekday
+Pav Bhaji,Street Food,Dinner,All Year,"Potato, Tomato, Peas, Butter, Pav",No,40,,Mumbai street food,Pav Bhaji + Extra Pav + Onion Salad + Lemon,3,Heavy,Peas,Mixed Vegetables,Weekend
+Ragda Pattice,Street Food,Dinner,All Year,"Potato Patty, White Peas, Chutney",No,40,,Chaat-style snack dinner,Ragda Pattice + Green Chutney + Tamarind Chutney + Sev,3,Medium,White Peas,Potato,Weekday
+Dabeli,Street Food,Breakfast,All Year,"Potato, Peanuts, Pomegranate, Pav",Yes,25,,Gujarati street food,Dabeli + Masala Chai + Sev,3,Medium,Peanuts,Potato,Weekday
+Vada Pav,Street Food,Breakfast,All Year,"Potato, Gram Flour, Pav, Garlic Chutney",No,25,,Mumbai burger,Vada Pav + Fried Chili + Masala Chai,3,Medium,Gram Flour,Potato,Weekday
+Bhel Puri,Street Food,Dinner,All Year,"Puffed Rice, Onion, Tomato, Chutneys, Sev",Yes,15,,Light chaat,Bhel Puri + Sev Puri + Masala Chai,3,Light,Puffed Rice,Onion,Weekday
+Dahi Vada,Street Food,Dinner,All Year,"Urad Dal, Yogurt, Tamarind Chutney, Cumin",No,40,,Soft dumplings in yogurt,Dahi Vada + Aloo Tikki + Green Chutney,3,Medium,Urad Dal,Urad Dal,Weekday
+Aloo Tikki,Street Food,Dinner,All Year,"Potato, Peas, Coriander, Chaat Masala",Yes,30,,Crispy potato patties,Aloo Tikki + Chole + Green Chutney + Tamarind Chutney,3,Medium,Chickpeas,Potato,Weekday
+Gajar Ka Halwa,North Indian,Dinner,Winter,"Carrot, Milk, Sugar, Ghee, Cardamom",Yes,45,,Winter dessert,Gajar Ka Halwa + Puri + Aloo Sabzi,3,Heavy,Milk,Carrot,Weekend
+Gulab Jamun,North Indian,Dinner,All Year,"Khoya, Flour, Sugar Syrup, Cardamom",Yes,30,,Classic Indian sweet,Gulab Jamun + Puri + Simple Sabzi,3,Heavy,Khoya,Wheat Flour,Weekend
+Ras Malai,North Indian,Dinner,All Year,"Paneer, Milk, Sugar, Saffron, Cardamom",Yes,40,,Creamy milk dessert,Ras Malai + Roti + Simple Dal,3,Heavy,Paneer,Dal,Weekend
+Besan Ladoo,North Indian,Dinner,All Year,"Gram Flour, Ghee, Sugar, Cardamom",Yes,25,,Traditional sweet,Besan Ladoo + Puri + Aloo Sabzi,3,Heavy,Gram Flour,Gram Flour,Weekend
+Jalebi,North Indian,Breakfast,Winter,"Flour, Sugar Syrup, Saffron",Yes,30,,Crispy spiral sweet,Jalebi + Rabri + Samosa,3,Heavy,Rabri,Wheat Flour,Weekend
+Baigan Ka Bharta,Rajasthani,Lunch,Monsoon,"Brinjal, Mustard Oil, Onion, Tomato",No,30,,Smoky mashed eggplant,Baigan Ka Bharta + Bajre Ki Roti + Dal + Buttermilk,3,Medium,Dal,Brinjal,Weekday
+Pyaaz Kachori,Rajasthani,Breakfast,All Year,"Wheat Flour, Onion, Spices",No,40,,Crispy stuffed pastry,Pyaaz Kachori + Mirchi Vada + Chai,3,Medium,Wheat Flour,Onion,Weekend
+Pindi Chole,North Indian,Lunch,All Year,"Chickpeas, Tea Bags, Pomegranate Powder, Ginger",No,45,,Dry spiced chickpeas,Pindi Chole + Bhature + Onion Salad + Pickle,3,Heavy,Chickpeas,Chickpeas,Weekend
+Paneer Bhurji,North Indian,Breakfast,All Year,"Paneer, Onion, Tomato, Green Chili",No,15,,Scrambled paneer,Paneer Bhurji + Roti + Chai + Pickle,3,Medium,Paneer,Onion,Weekday
+Besan Chilla,North Indian,Breakfast,All Year,"Gram Flour, Onion, Tomato, Green Chili",No,15,,Savory gram flour pancake,Besan Chilla + Green Chutney + Chai + Curd,3,Light,Gram Flour,Onion,Weekday
+Stuffed Capsicum,North Indian,Lunch,All Year,"Bell Pepper, Potato, Paneer, Spices",No,30,,Filled peppers,Stuffed Capsicum + Roti + Dal + Rice,3,Medium,Paneer,Bell Pepper,Weekday
+Mutter Mushroom,North Indian,Lunch,Winter,"Mushroom, Green Peas, Onion, Tomato",No,25,,Hearty winter curry,Mutter Mushroom + Roti + Dal + Rice,3,Medium,Mushroom,Green Peas,Weekday
+Vegetable Biryani,Hyderabadi,Lunch,All Year,"Basmati Rice, Mixed Vegetables, Yogurt, Saffron, Mint",No,60,,Layered dum style,Vegetable Biryani + Mirchi Ka Salan + Raita + Papad,3,Heavy,Yogurt,Mixed Vegetables,Weekend
+Hyderabadi Mirchi Ka Salan,Hyderabadi,Lunch,All Year,"Green Chili, Peanut, Sesame, Tamarind, Coconut",No,35,,Tangy nutty curry,Mirchi Ka Salan + Biryani + Raita + Papad,3,Medium,Peanuts,Coconut,Weekday
+Vegetable Pulao,North Indian,Lunch,All Year,"Basmati Rice, Mixed Vegetables, Whole Spices",Yes,30,,Fragrant one-pot rice,Vegetable Pulao + Raita + Papad + Pickle,3,Medium,Mixed Vegetables,Mixed Vegetables,Weekday

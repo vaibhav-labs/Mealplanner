@@ -1,0 +1,171 @@
+Dish Name,Category,Cuisine,Season,Is Jain,Cooking Time,Meal Weight,Protein Source,Fiber Source,Main Ingredients,Preference,Recipe URL,Notes
+Dal Tadka,dal,North Indian,All Year,Yes,30,Medium,Toor Dal,Toor Dal,"Toor Dal, Tomato, Cumin, Turmeric, Ghee",More,,Everyday tempered toor dal
+Moong Dal,dal,North Indian,All Year,Yes,25,Light,Moong Dal,Moong Dal,"Moong Dal, Ghee, Cumin, Turmeric",More,,"Light, easy to digest"
+Chana Dal,dal,North Indian,All Year,No,35,Medium,Chana Dal,Chana Dal,"Chana Dal, Onion, Tomato, Turmeric",More,,Protein rich split chickpea dal
+Dal Makhani,dal,North Indian,Winter,No,80,Heavy,Black Dal,Black Dal,"Black Dal, Rajma, Butter, Cream, Tomato",Normal,,Slow cooked buttery dal
+Panchmel Dal,dal,Rajasthani,All Year,Yes,45,Medium,Mixed Lentils,Mixed Lentils,"Toor Dal, Moong Dal, Chana Dal, Urad Dal, Masoor Dal, Cumin",Normal,,Traditional Rajasthani five-lentil dal
+Rajma,dal,North Indian,Winter,No,45,Heavy,Rajma,Rajma,"Rajma, Onion, Tomato, Ginger-Garlic",Normal,,Kidney bean curry
+Chole,dal,North Indian,All Year,No,40,Medium,Chickpeas,Chickpeas,"Chickpeas, Onion, Tomato, Garam Masala",Normal,,Punjabi chickpea curry
+Pindi Chole,dal,North Indian,All Year,No,45,Heavy,Chickpeas,Chickpeas,"Chickpeas, Tea Bags, Pomegranate Powder, Ginger",Normal,,Dry spiced Rawalpindi-style chole
+Punjabi Kadhi,dal,North Indian,All Year,No,40,Light,Yogurt,Gram Flour,"Yogurt, Gram Flour, Onion, Tempering Spices",Normal,,Yogurt and gram flour curry
+Gujarati Kadhi,dal,Gujarati,All Year,No,30,Medium,Yogurt,Gram Flour,"Yogurt, Gram Flour, Sugar, Curry Leaves",Normal,,Sweet and tangy kadhi
+Rajasthani Kadhi,dal,Rajasthani,All Year,No,30,Light,Yogurt,Gram Flour,"Yogurt, Gram Flour, Asafoetida, Red Chili, Cumin",Normal,,Tangy desert-style kadhi without sugar
+Sambar,dal,South Indian,All Year,No,35,Medium,Toor Dal,Mixed Vegetables,"Toor Dal, Tamarind, Mixed Vegetables, Sambar Powder",Normal,,Lentil vegetable stew
+Dal Dhokli,dal,Gujarati,Monsoon,No,45,Heavy,Toor Dal,Wheat Flour,"Toor Dal, Wheat Flour, Jaggery, Tamarind",Normal,,Dal with wheat dumplings
+Mogar Dal,dal,Rajasthani,Summer,Yes,30,Light,Moong Dal,Moong Dal,"Moong Dal, Raw Mango, Cumin, Turmeric",Normal,,"Moong dal with raw mango, summer staple"
+Palak Paneer,sabzi-gravy,North Indian,Winter,No,35,Heavy,Paneer,Spinach,"Spinach, Paneer, Onion, Garlic",More,,Creamy spinach and paneer
+Matar Paneer,sabzi-gravy,North Indian,Winter,No,30,Medium,Paneer,Green Peas,"Green Peas, Paneer, Tomato, Onion",More,,Peas and paneer curry
+Paneer Butter Masala,sabzi-gravy,North Indian,All Year,No,35,Heavy,Paneer,Tomato,"Paneer, Butter, Tomato, Cashew, Cream",More,,Restaurant-style rich paneer
+Shahi Paneer,sabzi-gravy,North Indian,All Year,No,40,Heavy,Paneer,Onion,"Paneer, Onion, Tomato, Cream, Nuts",More,,Mughlai-style paneer
+Malai Kofta,sabzi-gravy,North Indian,Winter,No,50,Heavy,Paneer,Potato,"Paneer, Potato, Cream, Cashew",More,,Fried kofta in creamy gravy
+Gatte Ki Sabzi,sabzi-gravy,Rajasthani,All Year,Yes,40,Medium,Gram Flour,Gram Flour,"Gram Flour, Yogurt, Ginger, Cumin",More,https://www.vegrecipesofindia.com/gatte-ki-sabji-recipe/,Besan dumplings in yogurt curry
+Govind Gatte,sabzi-gravy,Rajasthani,All Year,No,55,Heavy,Gram Flour,Gram Flour,"Gram Flour, Khoya, Cashew, Yogurt, Spices",Normal,,Festive stuffed gatte with khoya
+Mangodi Ki Sabzi,sabzi-gravy,Rajasthani,All Year,Yes,35,Medium,Moong Dal,Moong Dal,"Moong Dal Mangodi, Tomato, Cumin, Turmeric",More,,Sun-dried moong dal dumpling curry (moong vadi)
+Papad Ki Sabzi,sabzi-gravy,Rajasthani,All Year,Yes,15,Light,Yogurt,Papad,"Papad, Yogurt, Cumin, Coriander",Normal,,Quick no-vegetable curry
+Haldi Ki Sabzi,sabzi-gravy,Rajasthani,Winter,No,30,Medium,Yogurt,Fresh Turmeric,"Fresh Turmeric, Yogurt, Peas, Ghee",Normal,,"Fresh turmeric root curry, winter special"
+Pithor Ki Sabzi,sabzi-gravy,Rajasthani,All Year,Yes,35,Medium,Gram Flour,Gram Flour,"Gram Flour, Yogurt, Buttermilk, Spices",Normal,,Steamed besan squares in curry
+Dahi Ki Sabzi,sabzi-gravy,Rajasthani,All Year,No,20,Light,Yogurt,Yogurt,"Yogurt, Gram Flour, Green Chili, Cumin",Normal,,Quick yogurt-based curry
+Pithla,sabzi-gravy,Marathi,All Year,No,20,Medium,Gram Flour,Gram Flour,"Gram Flour, Onion, Garlic, Green Chili",More,,"Maharashtrian besan curry, pairs with bhakri"
+Mixed Veg Curry,sabzi-gravy,North Indian,All Year,No,30,Medium,,Mixed Vegetables,"Potato, Carrot, Beans, Peas, Tomato",Normal,,Seasonal mixed vegetable curry
+Dum Aloo,sabzi-gravy,North Indian,Winter,No,40,Heavy,Yogurt,Potato,"Baby Potato, Yogurt, Tomato, Cashew",Normal,,Kashmiri-style baby potato curry
+Lauki Ki Sabzi,sabzi-gravy,North Indian,Summer,Yes,25,Light,,Bottle Gourd,"Bottle Gourd, Tomato, Cumin",Normal,,Light bottle gourd curry
+Sev Tameta,sabzi-gravy,Gujarati,All Year,No,20,Light,,Tomato,"Tomato, Sev, Onion, Green Chili",Normal,,Quick tangy tomato curry
+Sarson Ka Saag,sabzi-gravy,North Indian,Winter,No,50,Medium,Mustard Greens,Mustard Greens,"Mustard Greens, Spinach, Ghee, Garlic",Normal,,Punjabi winter greens
+Avial,sabzi-gravy,South Indian,All Year,No,30,Medium,Yogurt,Mixed Vegetables,"Mixed Vegetables, Coconut, Yogurt, Curry Leaves",Normal,,Kerala mixed vegetable curry
+Veg Manchurian,sabzi-gravy,Indo-Chinese,All Year,No,30,Medium,,Mixed Vegetables,"Mixed Vegetables, Soy Sauce, Cornflour, Garlic",Normal,,Indo-Chinese vegetable balls in gravy
+Hyderabadi Mirchi Ka Salan,sabzi-gravy,Hyderabadi,All Year,No,35,Medium,Peanuts,Coconut,"Green Chili, Peanut, Sesame, Tamarind, Coconut",Less,,Tangy nutty chili curry
+Mutter Mushroom,sabzi-gravy,North Indian,Winter,No,25,Medium,,Green Peas,"Mushroom, Green Peas, Onion, Tomato",Less,,Mushroom and peas curry
+Bhindi Do Pyaza,sabzi-dry,North Indian,Summer,No,30,Light,,Okra,"Okra, Onion, Tomato, Coriander",Normal,,Dry okra with onions
+Aloo Matar,sabzi-dry,North Indian,Winter,Yes,25,Medium,Green Peas,Green Peas,"Potato, Green Peas, Tomato, Cumin",Normal,,Simple everyday potato-peas
+Tinda Masala,sabzi-dry,North Indian,Summer,No,25,Light,,Apple Gourd,"Apple Gourd, Onion, Tomato",Normal,,Summer apple gourd sabzi
+Kadhai Paneer,sabzi-dry,North Indian,All Year,No,30,Medium,Paneer,Bell Pepper,"Paneer, Bell Pepper, Tomato, Kadhai Masala",More,,Semi-dry spiced paneer
+Paneer Tikka,sabzi-dry,North Indian,All Year,No,30,Medium,Paneer,Bell Pepper,"Paneer, Bell Pepper, Yogurt, Tikka Masala",More,,Grilled marinated paneer
+Stuffed Capsicum,sabzi-dry,North Indian,All Year,No,30,Medium,Paneer,Bell Pepper,"Bell Pepper, Potato, Paneer, Spices",Normal,,Paneer-stuffed peppers
+Undhiyu,sabzi-dry,Gujarati,Winter,Yes,60,Heavy,Surti Papdi,Mixed Vegetables,"Surti Papdi, Brinjal, Potato, Banana, Coconut",Normal,,Traditional Gujarati winter mixed veg
+Ker Sangri,sabzi-dry,Rajasthani,Summer,Yes,45,Medium,Beans,Sangri Beans,"Dried Berries, Sangri Beans, Gram Flour, Red Chili",Normal,,"Desert berries and beans, iconic Rajasthani"
+Bharwa Lauki,sabzi-dry,Rajasthani,Summer,Yes,35,Medium,,Bottle Gourd,"Bottle Gourd, Gram Flour, Spices, Coriander",Normal,,Stuffed bottle gourd
+Guar Ki Sabzi,sabzi-dry,Rajasthani,Monsoon,Yes,30,Light,,Cluster Beans,"Cluster Beans, Potato, Cumin, Turmeric",Normal,,Cluster bean dry sabzi
+Aloo Pyaz Ki Sabzi,sabzi-dry,Rajasthani,All Year,No,20,Light,,Potato,"Potato, Onion, Tomato, Cumin",Normal,,Quick potato-onion sabzi
+Kair Kumatiya,sabzi-dry,Rajasthani,Summer,Yes,40,Light,,Kair Berries,"Kair Berries, Kumat Beans, Red Chili, Spices",Normal,,Wild desert berries and beans
+Aloo Gobhi,sabzi-dry,North Indian,Winter,Yes,25,Medium,,Cauliflower,"Potato, Cauliflower, Turmeric",Less,,Classic potato-cauliflower
+Baingan Bharta,sabzi-dry,North Indian,Monsoon,No,35,Light,,Brinjal,"Brinjal, Onion, Tomato, Garlic",Less,,Smoky mashed eggplant
+Bharli Vangi,sabzi-dry,Marathi,Monsoon,No,35,Medium,Peanuts,Brinjal,"Brinjal, Peanut, Coconut, Sesame",Less,,Stuffed baby eggplant
+Gobi Manchurian,sabzi-dry,Indo-Chinese,All Year,No,30,Medium,,Cauliflower,"Cauliflower, Soy Sauce, Ginger-Garlic, Cornflour",Less,,Indo-Chinese cauliflower
+Roti,bread,North Indian,All Year,Yes,5,Light,,Wheat Flour,Wheat Flour,More,,Everyday wheat flatbread
+Paratha,bread,North Indian,All Year,Yes,10,Medium,,Wheat Flour,"Wheat Flour, Ghee",Normal,,Plain layered flatbread
+Naan,bread,North Indian,All Year,No,15,Medium,,Refined Flour,"Refined Flour, Yogurt",Normal,,Leavened tandoori bread
+Bajra Roti,bread,Rajasthani,Winter,Yes,20,Medium,,Pearl Millet,"Pearl Millet Flour, Ghee",Normal,,Pearl millet winter bread
+Makki Ki Roti,bread,North Indian,Winter,Yes,20,Medium,,Corn Flour,"Corn Flour, Ghee",Normal,,"Cornmeal bread, pairs with saag"
+Missi Roti,bread,Rajasthani,All Year,Yes,15,Medium,,Gram Flour,"Wheat Flour, Gram Flour, Ajwain, Spices",Normal,,Spiced gram-and-wheat flour bread
+Khoba Roti,bread,Rajasthani,All Year,Yes,25,Medium,,Wheat Flour,"Wheat Flour, Ghee",Normal,,Hand-pinched thick Rajasthani bread
+Baati,bread,Rajasthani,All Year,Yes,40,Heavy,,Wheat Flour,"Wheat Flour, Ghee, Semolina",Normal,,Baked wheat dough balls
+Bhakri,bread,Marathi,All Year,Yes,15,Medium,,Jowar,Jowar Flour,Normal,,Rustic jowar/bajra flatbread
+Steamed Rice,rice,North Indian,All Year,Yes,20,Light,,Rice,Rice,More,,Plain steamed rice
+Jeera Rice,rice,North Indian,All Year,Yes,20,Light,,Rice,"Basmati Rice, Cumin, Ghee",Normal,,Cumin-tempered rice
+Vegetable Pulao,rice,North Indian,All Year,Yes,30,Medium,,Mixed Vegetables,"Basmati Rice, Mixed Vegetables, Whole Spices",Normal,,Fragrant one-pot rice
+Lemon Rice,rice,South Indian,All Year,Yes,20,Light,Peanuts,Rice,"Rice, Lemon Juice, Peanuts, Mustard Seeds",Normal,,Quick tangy South Indian rice
+Curd Rice,rice,South Indian,Summer,No,15,Light,Yogurt,Rice,"Rice, Yogurt, Mustard Seeds, Curry Leaves",More,,Cooling curd rice (dahi chawal)
+Khichdi,rice,North Indian,Monsoon,Yes,25,Light,Moong Dal,Rice,"Rice, Moong Dal, Ghee, Cumin, Turmeric",Normal,,Comforting rice-lentil one-pot
+Bajre Ki Khichdi,rice,Rajasthani,Winter,Yes,40,Medium,Moong Dal,Pearl Millet,"Pearl Millet, Moong Dal, Ghee, Cumin",Normal,,"Pearl millet khichdi, winter warmer"
+Gatte Ka Pulao,rice,Rajasthani,All Year,Yes,35,Medium,Gram Flour,Rice,"Basmati Rice, Gram Flour Gatte, Whole Spices",Normal,,Rice cooked with besan gatte
+Bisibelebath,rice,South Indian,All Year,No,45,Medium,Toor Dal,Mixed Vegetables,"Rice, Toor Dal, Vegetables, Tamarind",Normal,,Karnataka one-pot rice
+Veg Fried Rice,rice,Indo-Chinese,All Year,No,20,Medium,,Mixed Vegetables,"Rice, Mixed Vegetables, Soy Sauce, Vinegar",Normal,,Indo-Chinese fried rice
+Vegetable Biryani,rice,Hyderabadi,All Year,No,60,Heavy,Yogurt,Mixed Vegetables,"Basmati Rice, Mixed Vegetables, Yogurt, Saffron, Mint",Less,,Layered dum biryani
+Vangi Bhaat,rice,Marathi,Monsoon,No,40,Medium,,Brinjal,"Brinjal, Rice, Coconut, Tamarind",Less,,Maharashtrian brinjal rice
+Poha,breakfast,Marathi,All Year,Yes,15,Light,Peanuts,Flattened Rice,"Flattened Rice, Onion, Mustard Seeds, Peanuts",More,,Light flattened rice breakfast
+Vada Pav,breakfast,Street Food,All Year,No,25,Medium,Gram Flour,Potato,"Potato, Gram Flour, Pav, Garlic Chutney",More,,Mumbai potato burger
+Idli,breakfast,South Indian,All Year,Yes,30,Light,Urad Dal,Rice,"Rice, Urad Dal",More,,Steamed rice-lentil cakes
+Masala Dosa,breakfast,South Indian,All Year,No,40,Medium,Urad Dal,Rice,"Rice, Urad Dal, Potato, Mustard Seeds",More,,Crispy crepe with potato filling
+Dhokla,breakfast,Gujarati,All Year,Yes,30,Light,Gram Flour,Gram Flour,"Gram Flour, Yogurt, Mustard Seeds",More,,Steamed savory gram flour cake (khaman)
+Khandvi,breakfast,Gujarati,All Year,Yes,30,Light,Gram Flour,Gram Flour,"Gram Flour, Yogurt, Coconut",More,,Rolled gram flour snack
+Khakra,breakfast,Gujarati,All Year,Yes,20,Light,,Wheat Flour,"Wheat Flour, Oil, Spices",More,,Thin crispy roasted cracker
+Paneer Paratha,breakfast,North Indian,All Year,No,25,Medium,Paneer,Wheat Flour,"Wheat Flour, Paneer, Spices",More,,Paneer-stuffed flatbread
+Paneer Bhurji,breakfast,North Indian,All Year,No,15,Medium,Paneer,Onion,"Paneer, Onion, Tomato, Green Chili",More,,Scrambled spiced paneer
+Aloo Paratha,breakfast,North Indian,Winter,Yes,25,Heavy,,Potato,"Potato, Wheat Flour, Cumin",Normal,,Stuffed potato flatbread
+Methi Thepla,breakfast,Gujarati,All Year,No,20,Light,Yogurt,Fenugreek,"Wheat Flour, Fenugreek Leaves, Yogurt",Normal,,Travel-friendly fenugreek flatbread
+Handvo,breakfast,Gujarati,All Year,No,45,Medium,Chana Dal,Bottle Gourd,"Rice, Chana Dal, Bottle Gourd, Sesame",Normal,,Savory baked rice-lentil cake
+Thalipeeth,breakfast,Marathi,All Year,No,20,Medium,,Multi-grain,"Multi-grain Flour, Onion, Coriander",Normal,,Spiced multi-grain flatbread
+Kothimbir Vadi,breakfast,Marathi,All Year,No,30,Light,Gram Flour,Coriander,"Coriander Leaves, Gram Flour, Sesame",Normal,,Crispy coriander fritters
+Upma,breakfast,South Indian,All Year,Yes,20,Medium,Semolina,Vegetables,"Semolina, Mustard Seeds, Curry Leaves, Vegetables",Normal,,Quick semolina breakfast
+Medu Vada,breakfast,South Indian,All Year,No,30,Medium,Urad Dal,Urad Dal,"Urad Dal, Curry Leaves, Black Pepper",Normal,,Crispy fried lentil donuts
+Pongal,breakfast,South Indian,Winter,Yes,30,Medium,Moong Dal,Rice,"Rice, Moong Dal, Pepper, Ghee, Curry Leaves",Normal,,Comforting rice-lentil breakfast
+Pesarattu,breakfast,South Indian,All Year,No,25,Medium,Green Moong Dal,Green Moong Dal,"Green Moong Dal, Rice, Ginger, Green Chili",Normal,,Andhra green gram crepe
+Misal Pav,breakfast,Marathi,All Year,No,45,Heavy,Mixed Sprouts,Mixed Sprouts,"Mixed Sprouts, Pav, Onion, Tomato, Farsan",Normal,,Spicy sprout curry with pav
+Sabudana Khichdi,breakfast,Marathi,Monsoon,Yes,30,Light,Peanuts,Sago,"Sago, Peanuts, Potato, Cumin",Normal,,"Tapioca pearl breakfast, fasting food"
+Besan Chilla,breakfast,North Indian,All Year,No,15,Light,Gram Flour,Onion,"Gram Flour, Onion, Tomato, Green Chili",Normal,,Savory gram flour pancake
+Pyaaz Kachori,breakfast,Rajasthani,All Year,No,40,Medium,,Onion,"Wheat Flour, Onion, Spices",Normal,,Flaky onion-stuffed pastry
+Mirchi Vada,breakfast,Rajasthani,All Year,No,35,Medium,Potato,Chili,"Large Chili, Potato, Gram Flour, Spices",Normal,,"Stuffed chili fritter, Jodhpur special"
+Dabeli,breakfast,Street Food,All Year,Yes,25,Medium,Peanuts,Potato,"Potato, Peanuts, Pomegranate, Pav",Normal,,Sweet-spicy Gujarati street snack
+Bhel Puri,breakfast,Street Food,All Year,Yes,15,Light,,Puffed Rice,"Puffed Rice, Onion, Tomato, Chutneys, Sev",Normal,,Light puffed rice chaat
+Aloo Tikki,breakfast,Street Food,All Year,Yes,30,Medium,,Potato,"Potato, Peas, Coriander, Chaat Masala",Normal,,Crispy potato patties
+Pav Bhaji,breakfast,Street Food,All Year,No,40,Heavy,,Mixed Vegetables,"Potato, Tomato, Peas, Butter, Pav",Normal,,Mumbai mashed vegetable street food
+Kachumber Salad,salad,North Indian,All Year,No,10,Light,,Cucumber,"Cucumber, Onion, Tomato, Lemon",Normal,,Everyday chopped salad
+Cucumber Salad,salad,North Indian,Summer,Yes,5,Light,,Cucumber,"Cucumber, Lemon, Black Salt",Normal,,Cooling sliced cucumber
+Carrot Salad,salad,North Indian,Winter,Yes,10,Light,,Carrot,"Carrot, Lemon, Peanuts, Coriander",Normal,,Grated carrot salad
+Green Salad,salad,North Indian,All Year,No,10,Light,,Mixed Vegetables,"Cucumber, Tomato, Onion, Carrot, Lemon",Normal,,Simple mixed green salad
+Sprouts Salad,salad,North Indian,All Year,Yes,15,Light,Mixed Sprouts,Mixed Sprouts,"Mixed Sprouts, Onion, Tomato, Lemon",More,,Protein-rich sprout salad
+Beetroot Salad,salad,North Indian,Winter,Yes,10,Light,,Beetroot,"Beetroot, Lemon, Coriander",Normal,,Grated beetroot salad
+Boondi Raita,raita,North Indian,Summer,No,10,Light,Yogurt,Yogurt,"Yogurt, Boondi, Cumin, Black Salt",More,,Crispy boondi in spiced yogurt
+Cucumber Raita,raita,North Indian,Summer,No,10,Light,Yogurt,Cucumber,"Yogurt, Cucumber, Cumin, Coriander",More,,Cooling cucumber yogurt
+Mixed Veg Raita,raita,North Indian,All Year,No,10,Light,Yogurt,Mixed Vegetables,"Yogurt, Cucumber, Tomato, Onion, Cumin",More,,Mixed vegetable yogurt side
+Onion Raita,raita,North Indian,All Year,No,5,Light,Yogurt,Onion,"Yogurt, Onion, Cumin, Coriander",Normal,,Quick onion yogurt
+Pineapple Raita,raita,North Indian,Summer,No,10,Light,Yogurt,Pineapple,"Yogurt, Pineapple, Sugar, Cardamom",Normal,,Sweet fruit raita
+Mango Pickle,achar-chutney,North Indian,Summer,Yes,15,Light,,Raw Mango,"Raw Mango, Mustard Oil, Spices",Normal,,Classic raw mango pickle
+Lemon Pickle,achar-chutney,North Indian,All Year,Yes,10,Light,,Lemon,"Lemon, Salt, Red Chili",Normal,,Tangy lemon pickle
+Mixed Vegetable Pickle,achar-chutney,North Indian,Winter,Yes,15,Light,,Mixed Vegetables,"Carrot, Cauliflower, Turnip, Mustard Oil",Normal,,Winter mixed vegetable achar
+Green Chilli Pickle,achar-chutney,North Indian,All Year,Yes,10,Light,,Green Chili,"Green Chili, Mustard Seeds, Lemon",Normal,,Quick green chili pickle
+Mint Coriander Chutney,achar-chutney,North Indian,All Year,Yes,10,Light,,Mint,"Mint, Coriander, Green Chili, Lemon",Normal,,Fresh green chutney
+Coconut Chutney,achar-chutney,South Indian,All Year,Yes,10,Light,,Coconut,"Coconut, Green Chili, Mustard Seeds",Normal,,Essential South Indian chutney
+Sing Dana Chutney,achar-chutney,Gujarati,All Year,Yes,10,Light,Peanuts,Peanuts,"Peanuts, Garlic, Red Chili, Salt",More,,"Dry peanut chutney, pairs with khakra"
+Tomato Chutney,achar-chutney,South Indian,All Year,Yes,15,Light,,Tomato,"Tomato, Onion, Red Chili, Tamarind",Normal,,Tangy tomato chutney
+Garlic Chutney,achar-chutney,Rajasthani,Winter,No,10,Light,,Garlic,"Garlic, Red Chili, Salt",Normal,,Fiery dry garlic chutney
+Papad,achar-chutney,North Indian,All Year,Yes,5,Light,,Lentil,Lentil Papad,Normal,,Roasted or fried lentil wafer
+Plain Curd,achar-chutney,North Indian,All Year,Yes,5,Light,Yogurt,Yogurt,Yogurt,More,,"Fresh set curd, everyday protein side"
+Tomato Soup,soup,Continental,Winter,Yes,20,Light,,Tomato,"Tomato, Garlic, Pepper, Basil",Normal,,Classic comforting tomato soup
+Manchow Soup,soup,Indo-Chinese,Winter,No,25,Light,,Mixed Vegetables,"Mixed Vegetables, Soy Sauce, Vinegar, Fried Noodles",Normal,,Spicy soup with crispy noodles
+Sweet Corn Soup,soup,Indo-Chinese,Winter,No,20,Light,Corn,Corn,"Sweet Corn, Mixed Vegetables, Pepper",Normal,,Mild sweet corn soup
+Hot and Sour Soup,soup,Indo-Chinese,Winter,No,25,Light,,Mixed Vegetables,"Mixed Vegetables, Soy Sauce, Vinegar, Pepper",Normal,,Tangy spicy soup
+Mixed Veg Soup,soup,Continental,Winter,Yes,25,Light,,Mixed Vegetables,"Carrot, Beans, Peas, Cabbage, Pepper",Normal,,Wholesome clear vegetable soup
+Rasam,soup,South Indian,Monsoon,Yes,20,Light,Lentils,Tomato,"Tomato, Tamarind, Pepper, Curry Leaves",Less,,Tangy South Indian pepper soup
+Kheer,dessert,North Indian,All Year,Yes,35,Heavy,Milk,Rice,"Rice, Milk, Sugar, Cardamom",Normal,,Creamy rice pudding
+Gajar Ka Halwa,dessert,North Indian,Winter,Yes,45,Heavy,Milk,Carrot,"Carrot, Milk, Sugar, Ghee, Cardamom",Normal,,Winter carrot pudding
+Gulab Jamun,dessert,North Indian,All Year,Yes,30,Heavy,Khoya,Refined Flour,"Khoya, Flour, Sugar Syrup, Cardamom",Normal,,Classic syrup-soaked dumplings
+Ras Malai,dessert,North Indian,All Year,Yes,40,Heavy,Paneer,Milk,"Paneer, Milk, Sugar, Saffron, Cardamom",Normal,,Creamy milk dessert
+Besan Ladoo,dessert,North Indian,All Year,Yes,25,Heavy,Gram Flour,Gram Flour,"Gram Flour, Ghee, Sugar, Cardamom",Normal,,Roasted gram flour sweet
+Jalebi,dessert,North Indian,Winter,Yes,30,Heavy,,Refined Flour,"Refined Flour, Sugar Syrup, Saffron",Normal,,Crispy spiral sweet
+Moong Dal Halwa,dessert,Rajasthani,Winter,Yes,60,Heavy,Moong Dal,Moong Dal,"Moong Dal, Ghee, Milk, Sugar, Cardamom",Normal,,Rich winter moong dal pudding
+Malpua,dessert,Rajasthani,All Year,Yes,30,Heavy,,Refined Flour,"Refined Flour, Milk, Sugar Syrup, Fennel",Normal,,Sweet pancake in syrup
+Ghevar,dessert,Rajasthani,Monsoon,Yes,60,Heavy,,Refined Flour,"Refined Flour, Ghee, Sugar Syrup, Milk",Normal,,"Disc-shaped festive sweet, Teej special"
+Lapsi,dessert,Rajasthani,All Year,Yes,30,Medium,,Broken Wheat,"Broken Wheat, Jaggery, Ghee, Cardamom",Normal,,Sweet broken wheat porridge
+Churma,dessert,Rajasthani,All Year,Yes,40,Heavy,,Wheat Flour,"Wheat Flour, Ghee, Jaggery, Cardamom",Normal,,"Sweet crushed wheat, served with dal baati"
+Puran Poli,dessert,Marathi,All Year,Yes,60,Heavy,Chana Dal,Wheat Flour,"Chana Dal, Jaggery, Wheat Flour",Normal,,Sweet lentil-stuffed flatbread
+Masoor Dal,dal,North Indian,All Year,Yes,25,Light,Masoor Dal,Masoor Dal,"Masoor Dal, Tomato, Cumin, Turmeric",More,,Quick everyday red lentil dal
+Green Moong Dal,dal,North Indian,All Year,Yes,30,Light,Green Moong,Green Moong,"Whole Green Moong, Cumin, Turmeric, Ginger",Normal,,Whole green gram dal
+Urad Dal,dal,North Indian,All Year,No,35,Medium,Urad Dal,Urad Dal,"Urad Dal, Onion, Garlic, Tomato",Normal,,Creamy black gram dal
+Kala Chana,dal,North Indian,All Year,No,40,Medium,Black Chickpeas,Black Chickpeas,"Black Chickpeas, Onion, Tomato, Spices",Normal,,Protein-rich black chickpea curry
+Lobia Curry,dal,North Indian,All Year,No,35,Medium,Black-Eyed Peas,Black-Eyed Peas,"Black-Eyed Peas, Onion, Tomato, Garam Masala",Normal,,Black-eyed pea curry
+Matki Usal,sabzi-gravy,Marathi,All Year,No,30,Medium,Moth Beans,Moth Beans,"Sprouted Moth Beans, Onion, Goda Masala, Coconut",More,,Maharashtrian sprouted moth bean curry
+Val Ki Usal,sabzi-gravy,Marathi,Winter,No,35,Medium,Field Beans,Field Beans,"Field Beans, Onion, Coconut, Goda Masala",Normal,,Maharashtrian field bean curry
+Chawli Usal,sabzi-gravy,Marathi,All Year,No,25,Light,Black-Eyed Peas,Black-Eyed Peas,"Black-Eyed Peas, Onion, Tomato, Coconut",Normal,,Maharashtrian black-eyed pea bhaji
+Vatana Usal,sabzi-gravy,Marathi,All Year,No,30,Medium,White Peas,White Peas,"Dried White Peas, Onion, Tomato, Goda Masala",Normal,,Maharashtrian white pea curry
+Mixed Sprouts Usal,sabzi-gravy,Marathi,All Year,No,25,Light,Mixed Sprouts,Mixed Sprouts,"Mixed Sprouts, Onion, Tomato, Coconut",More,,Everyday Mumbai sprouted bean bhaji
+Tendli Sabzi,sabzi-dry,Marathi,All Year,Yes,25,Light,Peanuts,Ivy Gourd,"Ivy Gourd, Peanuts, Cumin, Turmeric",Normal,,Ivy gourd dry sabzi
+Cabbage Sabzi,sabzi-dry,North Indian,Winter,Yes,20,Light,,Cabbage,"Cabbage, Cumin, Turmeric, Green Chili",Normal,,Simple cabbage stir-fry
+Cabbage Peas Sabzi,sabzi-dry,North Indian,Winter,Yes,20,Light,Green Peas,Cabbage,"Cabbage, Green Peas, Cumin, Turmeric",Normal,,Cabbage with green peas
+French Beans Sabzi,sabzi-dry,North Indian,All Year,Yes,20,Light,,French Beans,"French Beans, Coconut, Mustard Seeds",Normal,,Dry French bean sabzi
+Aloo Beans,sabzi-dry,North Indian,All Year,Yes,25,Medium,,French Beans,"Potato, French Beans, Cumin, Turmeric",Normal,,Potato and beans dry sabzi
+Turai Sabzi,sabzi-gravy,North Indian,Summer,Yes,25,Light,,Ridge Gourd,"Ridge Gourd, Tomato, Cumin, Turmeric",Normal,,Light ridge gourd curry
+Pumpkin Sabzi,sabzi-dry,North Indian,Winter,Yes,25,Light,,Pumpkin,"Pumpkin, Fenugreek Seeds, Jaggery, Spices",Normal,,Sweet-tangy pumpkin sabzi
+Drumstick Sabzi,sabzi-gravy,Marathi,Summer,No,30,Light,,Drumstick,"Drumstick, Onion, Coconut, Tamarind",Normal,,Drumstick curry
+Arbi Sabzi,sabzi-dry,North Indian,Monsoon,No,30,Medium,,Colocasia,"Colocasia, Onion, Carom Seeds, Spices",Normal,,Spiced colocasia dry sabzi
+Raw Banana Sabzi,sabzi-dry,North Indian,All Year,Yes,25,Light,,Raw Banana,"Raw Banana, Cumin, Turmeric, Coriander",Normal,,Raw banana dry sabzi
+Suran Sabzi,sabzi-dry,North Indian,Winter,No,35,Medium,,Yam,"Elephant Foot Yam, Onion, Tamarind, Spices",Normal,,Spiced yam sabzi
+Parwal Sabzi,sabzi-dry,North Indian,Monsoon,Yes,25,Light,,Pointed Gourd,"Pointed Gourd, Cumin, Turmeric, Coriander",Normal,,Pointed gourd dry sabzi
+Tomato Sabzi,sabzi-gravy,North Indian,All Year,Yes,15,Light,,Tomato,"Tomato, Cumin, Turmeric, Green Chili",Normal,,Quick tangy tomato curry
+Methi Aloo,sabzi-dry,North Indian,Winter,Yes,25,Medium,,Fenugreek,"Fenugreek Leaves, Potato, Cumin, Turmeric",Normal,,Fenugreek and potato dry sabzi
+Palak Bhaji,sabzi-dry,North Indian,Winter,Yes,20,Light,,Spinach,"Spinach, Garlic, Cumin, Green Chili",Normal,,Simple spinach stir-fry
+Dudhi Chana Dal,sabzi-gravy,Marathi,All Year,Yes,30,Medium,Chana Dal,Bottle Gourd,"Bottle Gourd, Chana Dal, Cumin, Turmeric",Normal,,Bottle gourd with split chickpeas
+Bharli Bhendi,sabzi-dry,Marathi,Summer,No,30,Light,Peanuts,Okra,"Okra, Peanuts, Coconut, Gram Flour",Normal,,Stuffed okra
+Capsicum Besan Sabzi,sabzi-dry,North Indian,All Year,No,20,Light,Gram Flour,Bell Pepper,"Bell Pepper, Gram Flour, Cumin, Turmeric",Normal,,Bell pepper coated in roasted besan
+Gobi Matar,sabzi-dry,North Indian,Winter,Yes,25,Medium,Green Peas,Cauliflower,"Cauliflower, Green Peas, Cumin, Turmeric",Less,,Cauliflower and peas dry sabzi
+Beetroot Sabzi,sabzi-dry,North Indian,Winter,Yes,20,Light,,Beetroot,"Beetroot, Coconut, Mustard Seeds, Cumin",Normal,,Beetroot stir-fry
