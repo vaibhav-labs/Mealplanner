@@ -25,6 +25,7 @@
     --c-achar-chutney: #BC2F58; --c-achar-chutney-bg: #FBDDE6;
     --c-soup: #7B3FC4;       --c-soup-bg: #EDE0FB;
     --c-dessert: #C72E94;    --c-dessert-bg: #FBDDF0;
+    --c-chaat: #C8741A;      --c-chaat-bg: #FBE8D2;
     --c-other: #6F6A60;      --c-other-bg: #EEEAE0;
 }
 
@@ -397,6 +398,8 @@ input[type="checkbox"] {
 .cat-soup .component-cat { background: var(--c-soup-bg); color: var(--c-soup); }
 .cat-dessert { border-left-color: var(--c-dessert); }
 .cat-dessert .component-cat { background: var(--c-dessert-bg); color: var(--c-dessert); }
+.cat-chaat { border-left-color: var(--c-chaat); }
+.cat-chaat .component-cat { background: var(--c-chaat-bg); color: var(--c-chaat); }
 
 /* leftover states */
 .component-row.is-leftover {

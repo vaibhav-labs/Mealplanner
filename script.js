@@ -37,6 +37,7 @@ const PREF_WEIGHT = { More: 5, Normal: 2, Less: 0.5 };
 const MAX_OVERLAP = 0.75;          // no-repeat threshold (75% of a meal)
 const HISTORY_DAYS = 30;           // no-repeat window
 const BREAKFAST_COOLDOWN = 6;      // days before a breakfast item can repeat
+const CHAAT_DINNER_PROB = 0.2;     // chance a dinner is a standalone chaat (dinner only)
 const REQUIRED_COLUMNS = ['Dish Name', 'Category', 'Season', 'Is Jain', 'Meal Weight', 'Preference'];
 
 // ─── Pure engine helpers ───
@@ -343,7 +344,15 @@ class MealPlanner {
                 const res = await sbRequest(CONFIG.SUPABASE_TABLE + '?select=*&order=id');
                 if (!res.ok) throw new Error('HTTP ' + res.status + ' ' + (await res.text()).slice(0, 120));
                 const data = await res.json();
-                const dishes = data.filter(d => d['Dish Name'] && d['Category']);
+                // filter valid rows + de-dupe by name (keep first) for safety
+                const seen = new Set();
+                const dishes = data.filter(d => {
+                    if (!d['Dish Name'] || !d['Category']) return false;
+                    const k = d['Dish Name'].toLowerCase();
+                    if (seen.has(k)) return false;
+                    seen.add(k);
+                    return true;
+                });
                 if (dishes.length > 0) {
                     this.components = dishes;       // each row carries its `id`
                     this.supabaseMode = true;
@@ -485,13 +494,12 @@ class MealPlanner {
 
     // ─── Meal composers ───
     composeBreakfast(pools, recentBreakfastNames) {
-        let item = null;
-        for (let a = 0; a < 25; a++) {
-            const cand = weightedRandom(pools.breakfast || []);
-            if (!cand) break;
-            item = item || cand;
-            if (!recentBreakfastNames.includes(cand['Dish Name'])) { item = cand; break; }
-        }
+        const pool = pools.breakfast || [];
+        // Deterministically avoid recently-used breakfasts: filter them out, then
+        // pick from what's left. Only if every breakfast is "recent" (pool smaller
+        // than the cooldown window) do we allow a repeat.
+        const fresh = pool.filter(d => !recentBreakfastNames.includes(d['Dish Name']));
+        const item = weightedRandom(fresh.length ? fresh : pool);
         const meal = item ? [item] : [];
         const hasProtein = item && item['Protein Source'] && item['Protein Source'].trim().length > 0;
         if (!hasProtein) {
@@ -519,7 +527,7 @@ class MealPlanner {
 
     composeLunch(pools, historySigs) {
         let best = null, bestOverlap = Infinity;
-        for (let attempt = 0; attempt < 80; attempt++) {
+        for (let attempt = 0; attempt < 150; attempt++) {
             const used = new Set();
             const meal = [];
             const pick = (cat) => {
@@ -543,9 +551,37 @@ class MealPlanner {
         return best; // least-overlapping fallback when pool is tight
     }
 
+    // A standalone chaat dinner — a plate of chaat IS the meal (like breakfast).
+    // Chaat only ever appears at dinner, never lunch or breakfast.
+    composeChaatDinner(pools, historySigs) {
+        const chaatPool = pools.chaat || [];
+        if (!chaatPool.length) return null;
+        let best = null, bestOverlap = Infinity;
+        for (let attempt = 0; attempt < 150; attempt++) {
+            const meal = [];
+            const chaat = weightedRandom(chaatPool);
+            if (!chaat) return null;
+            meal.push(chaat);
+            // protein guarantee — if the chaat has none, serve it with a yogurt side
+            const hasProtein = chaat['Protein Source'] && chaat['Protein Source'].trim().length > 0;
+            if (!hasProtein) {
+                const proteinSides = (pools.raita || [])
+                    .concat((pools['achar-chutney'] || []).filter(d => d['Protein Source'] && d['Protein Source'].trim()));
+                const side = weightedRandom(proteinSides);
+                if (side) meal.push(side);
+            } else if (Math.random() < 0.4 && (pools['achar-chutney'] || []).length) {
+                meal.push(weightedRandom(pools['achar-chutney']));
+            }
+            const ov = this.maxOverlapAgainst(meal, historySigs);
+            if (ov < MAX_OVERLAP) return meal;
+            if (ov < bestOverlap) { bestOverlap = ov; best = meal; }
+        }
+        return best;
+    }
+
     composeDinner(pools, historySigs, lunchHeavy) {
         let best = null, bestOverlap = Infinity;
-        for (let attempt = 0; attempt < 80; attempt++) {
+        for (let attempt = 0; attempt < 150; attempt++) {
             const used = new Set();
             const meal = [];
             const pick = (cat, filterFn) => {
@@ -589,11 +625,14 @@ class MealPlanner {
             day: -Math.floor((now - h.ts) / 86400000),
             name: h.name,
         }));
+        // Never demand more distinct breakfasts than the pool actually has
+        const bfPoolSize = (pools.breakfast || []).length;
+        const effCooldown = Math.max(1, Math.min(BREAKFAST_COOLDOWN, bfPoolSize - 1));
 
         for (let i = 0; i < days; i++) {
             // Only breakfasts within the cooldown window count as "recent"
             const recentBf = bfHistory
-                .filter(b => i - b.day < BREAKFAST_COOLDOWN)
+                .filter(b => i - b.day < effCooldown)
                 .map(b => b.name);
             const breakfast = this.composeBreakfast(pools, recentBf);
             if (breakfast[0]) bfHistory.push({ day: i, name: breakfast[0]['Dish Name'] });
@@ -603,7 +642,12 @@ class MealPlanner {
 
             const lunchHeavy = lunch && lunch.some(d =>
                 d.Category && d.Category.indexOf('sabzi') === 0 && d['Meal Weight'] === 'Heavy');
-            const dinner = this.composeDinner(pools, ldSigs, lunchHeavy);
+            // Some dinners are a standalone chaat plate instead of a full thali
+            let dinner = null;
+            if ((pools.chaat || []).length && Math.random() < CHAAT_DINNER_PROB) {
+                dinner = this.composeChaatDinner(pools, ldSigs);
+            }
+            if (!dinner) dinner = this.composeDinner(pools, ldSigs, lunchHeavy);
             if (dinner) ldSigs.push(mealSignature(dinner));
 
             plan.push({ dayNum: i + 1, breakfast, lunch, dinner });
@@ -997,8 +1041,14 @@ class DishChat {
             'puranpoli': { category: 'dessert', weight: 'Heavy', protein: false, cuisine: 'Marathi' },
         };
 
+        // chaat = standalone dishes (eaten as the meal, not a thali component)
+        this.chaatKeywords = ['chaat', 'chat ', 'tikki', 'bhel', 'sev puri', 'sevpuri',
+            'pani puri', 'panipuri', 'gol gappa', 'golgappa', 'puchka', 'dahi puri', 'dahipuri',
+            'papdi', 'papri', 'ragda', 'pattice', 'patties', 'dahi vada', 'dahivada',
+            'samosa chaat', 'aloo chaat', 'corn chaat', 'fruit chaat'];
+
         this.categories = ['breakfast', 'dal', 'sabzi-gravy', 'sabzi-dry', 'bread',
-            'rice', 'salad', 'raita', 'achar-chutney', 'soup', 'dessert'];
+            'rice', 'salad', 'raita', 'achar-chutney', 'soup', 'chaat', 'dessert'];
 
         this.initListeners();
     }
@@ -1056,15 +1106,20 @@ class DishChat {
             if (lower.includes(key)) detectedIngredients.push({ key, ...info });
         }
 
+        // chaat detection runs FIRST (so "tikki"→chaat, not "tikka"→sabzi)
+        const isChaat = this.chaatKeywords.some(k => lower.includes(k));
+
         // detect dish type — stem-tolerant word match, first match wins
         let matchedType = null;
-        for (const [key, info] of Object.entries(this.dishTypes)) {
-            if (words.some(w => DishChat.typeMatches(w, key))) { matchedType = { key, ...info }; break; }
+        if (!isChaat) {
+            for (const [key, info] of Object.entries(this.dishTypes)) {
+                if (words.some(w => DishChat.typeMatches(w, key))) { matchedType = { key, ...info }; break; }
+            }
         }
 
-        let category = matchedType ? matchedType.category : 'sabzi-gravy';
-        const weight = matchedType ? matchedType.weight : 'Medium';
-        const wantsProtein = matchedType ? matchedType.protein : false;
+        let category = isChaat ? 'chaat' : (matchedType ? matchedType.category : 'sabzi-gravy');
+        const weight = isChaat ? 'Light' : (matchedType ? matchedType.weight : 'Medium');
+        const wantsProtein = isChaat ? false : (matchedType ? matchedType.protein : false);
 
         // gravy / dry qualifier override for sabzis
         if (category === 'sabzi-dry' || category === 'sabzi-gravy') {
@@ -1072,7 +1127,7 @@ class DishChat {
             else if (/\b(dry|sukhi|sookhi|sukha|suki)\b/.test(lower)) category = 'sabzi-dry';
         }
 
-        const cuisine = (matchedType && matchedType.cuisine) ? matchedType.cuisine : 'North Indian';
+        const cuisine = isChaat ? 'Street Food' : ((matchedType && matchedType.cuisine) ? matchedType.cuisine : 'North Indian');
 
         // Jain = no onion / garlic / ginger
         const isJain = !detectedIngredients.some(i => ['Onion', 'Garlic', 'Ginger'].includes(i.english)) ? 'Yes' : 'No';
@@ -1306,7 +1361,7 @@ class ManageView {
         });
 
         const order = ['breakfast', 'dal', 'sabzi-gravy', 'sabzi-dry', 'bread', 'rice',
-            'salad', 'raita', 'achar-chutney', 'soup', 'dessert'];
+            'salad', 'raita', 'achar-chutney', 'soup', 'chaat', 'dessert'];
         const byCat = {};
         filtered.forEach(d => { (byCat[d.Category] = byCat[d.Category] || []).push(d); });
 

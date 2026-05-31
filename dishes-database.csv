@@ -96,9 +96,20 @@ Besan Chilla,breakfast,North Indian,All Year,No,15,Light,Gram Flour,Onion,"Gram 
 Pyaaz Kachori,breakfast,Rajasthani,All Year,No,40,Medium,,Onion,"Wheat Flour, Onion, Spices",Normal,,Flaky onion-stuffed pastry
 Mirchi Vada,breakfast,Rajasthani,All Year,No,35,Medium,Potato,Chili,"Large Chili, Potato, Gram Flour, Spices",Normal,,"Stuffed chili fritter, Jodhpur special"
 Dabeli,breakfast,Street Food,All Year,Yes,25,Medium,Peanuts,Potato,"Potato, Peanuts, Pomegranate, Pav",Normal,,Sweet-spicy Gujarati street snack
-Bhel Puri,breakfast,Street Food,All Year,Yes,15,Light,,Puffed Rice,"Puffed Rice, Onion, Tomato, Chutneys, Sev",Normal,,Light puffed rice chaat
-Aloo Tikki,breakfast,Street Food,All Year,Yes,30,Medium,,Potato,"Potato, Peas, Coriander, Chaat Masala",Normal,,Crispy potato patties
 Pav Bhaji,breakfast,Street Food,All Year,No,40,Heavy,,Mixed Vegetables,"Potato, Tomato, Peas, Butter, Pav",Normal,,Mumbai mashed vegetable street food
+Bhel Puri,chaat,Street Food,All Year,Yes,15,Light,,Puffed Rice,"Puffed Rice, Onion, Tomato, Chutneys, Sev",More,,Light puffed rice chaat
+Aloo Tikki Chaat,chaat,Street Food,All Year,No,30,Medium,Chickpeas,Potato,"Potato, Peas, Chickpeas, Yogurt, Chutneys",More,,Crispy potato patties with chole and chutneys
+Beetroot Tikki,chaat,Street Food,All Year,Yes,30,Medium,,Beetroot,"Beetroot, Potato, Chaat Masala, Coriander",Normal,,Beetroot patty chaat
+Ragda Pattice,chaat,Street Food,All Year,No,40,Medium,White Peas,Potato,"White Peas, Potato, Onion, Chutneys",Normal,,Potato patties in white pea curry
+Sev Puri,chaat,Street Food,All Year,No,15,Light,,Potato,"Puri, Potato, Onion, Sev, Chutneys",More,,Crisp puris topped with chutneys and sev
+Pani Puri,chaat,Street Food,All Year,Yes,20,Light,Mixed Sprouts,Potato,"Semolina Puri, Potato, Sprouts, Tamarind Water",More,,Crispy puris with spiced water
+Dahi Puri,chaat,Street Food,All Year,No,15,Light,Yogurt,Potato,"Puri, Potato, Yogurt, Sev, Chutneys",More,,Puris filled with yogurt and chutneys
+Papdi Chaat,chaat,Street Food,All Year,No,15,Light,Chickpeas,Yogurt,"Papdi, Yogurt, Chickpeas, Chutneys",Normal,,"Crackers with yogurt, chickpeas and chutneys"
+Samosa Chaat,chaat,Street Food,All Year,No,30,Medium,Chickpeas,Potato,"Samosa, Chickpeas, Yogurt, Chutneys",Normal,,Crushed samosa topped with chole and dahi
+Dahi Vada,chaat,Street Food,All Year,No,40,Medium,Urad Dal,Urad Dal,"Urad Dal, Yogurt, Tamarind Chutney, Cumin",Normal,,Soft lentil dumplings in spiced yogurt
+Aloo Chaat,chaat,Street Food,All Year,Yes,20,Light,,Potato,"Potato, Chaat Masala, Lemon, Coriander",Normal,,Tangy spiced potato chaat
+Corn Chaat,chaat,Street Food,Monsoon,Yes,15,Light,Corn,Corn,"Sweet Corn, Lemon, Chaat Masala, Coriander",Normal,,Spiced sweet corn chaat
+Sprouts Chaat,chaat,Street Food,All Year,No,15,Light,Mixed Sprouts,Mixed Sprouts,"Mixed Sprouts, Onion, Tomato, Chaat Masala",More,,Healthy sprouted bean chaat
 Kachumber Salad,salad,North Indian,All Year,No,10,Light,,Cucumber,"Cucumber, Onion, Tomato, Lemon",Normal,,Everyday chopped salad
 Cucumber Salad,salad,North Indian,Summer,Yes,5,Light,,Cucumber,"Cucumber, Lemon, Black Salt",Normal,,Cooling sliced cucumber
 Carrot Salad,salad,North Indian,Winter,Yes,10,Light,,Carrot,"Carrot, Lemon, Peanuts, Coriander",Normal,,Grated carrot salad
